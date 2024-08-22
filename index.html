@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo da Forca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Jogo da Forca</h1>
+    <div id="game-area">
+      <div id="hangman-image"></div>
+      <div id="word"></div>
+      <div id="guesses-left">Tentativas restantes: <span id="guesses-count">6</span></div>
+      <div id="letters-guessed">Letras chutadas: <span id="guessed-letters"></span></div>
+      <input type="text" id="letter-input" placeholder="Chute uma letra">
+      <button id="guess-button">Chutar</button>
+      <button id="reset-button">Reiniciar</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
